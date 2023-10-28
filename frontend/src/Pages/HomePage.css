@@ -1,0 +1,22 @@
+.homepage {
+  margin-top: 2rem;
+}
+
+.bins-container {
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px 100px;
+}
+
+a {
+  color: rgb(25, 20, 36);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(99, 29, 212);
+  text-decoration: none;
+}

@@ -1,0 +1,20 @@
+.bin-card {
+  padding: 2rem;
+  min-width: 400px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 5px 10px 16px 0px rgba(136, 136, 136, 0.43);
+  background-color: white;
+}
+
+.bin-card:hover {
+  transform: scale(1.05);
+  transition-duration: 0.1s;
+}
+
+.direction-icon {
+  width: 64px;
+  height: auto;
+}
