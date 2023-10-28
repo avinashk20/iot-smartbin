@@ -16,8 +16,8 @@ app.use((req, res, next) => {
 
 const URL = "https://react-b5a1f-default-rtdb.firebaseio.com/smartbins.json";
 
-const BOT_TOKEN = "6228586208:AAEP1H63oQ3VI82HLuW_MyFJqPHgcuZVdKA";
-const CHAT_ID = "-1001657670679";
+const BOT_TOKEN = TELE_BOT_TOKEN;
+const CHAT_ID = TELE_CHAT_ID;
 const bot = new TelegramBot(BOT_TOKEN);
 
 app.get("/bins", function (req, res) {
