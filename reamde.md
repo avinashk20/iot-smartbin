@@ -1,5 +1,9 @@
 # Run the following commands
 
+`git clone https://github.com/avinashk20/iot-smartbin.git`
+
+`cd iot-smartbin`
+
 ## To start the frontend
 
 ### `cd frontend`
